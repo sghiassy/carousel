@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "carousel/Classes/**/*"
+  "source_files": "carousel/Classes/**/*",
+  "resource_bundles": {
+    "carousel": [
+      "carousel/Assets/*.png"
+    ]
+  }
 }
