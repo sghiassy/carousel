@@ -18,7 +18,7 @@ servers:
   - url: carousel.groupon.com
     description: The main prod server
 paths:
-  /homepage:
+  /:
     get:
       summary: homepage
       description: This is the main page
