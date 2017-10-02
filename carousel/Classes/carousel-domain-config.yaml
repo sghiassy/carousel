@@ -14,7 +14,7 @@ domain:
   description: The main prod server
 aliases:
   - host: gorpon.herokuapp.com
-routeHandler: CarouselMain
+routeHandler: CarouselRouteHandler
 paths:
   /:
     get:
