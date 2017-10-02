@@ -12,6 +12,7 @@ info:
 domain:
   - url: carousel.groupon.com
     description: The main prod server
+main: CarouselMain.swift
 paths:
   /:
     get:
