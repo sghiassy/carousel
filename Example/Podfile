@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'carousel_Example' do
   pod 'carousel', :path => '../'
+  pod 'AirGap', :path => '../../air-gap/'
 
   target 'carousel_Tests' do
     inherit! :search_paths
@@ -13,3 +14,4 @@ target 'carousel_Example' do
     pod 'Nimble-Snapshots'
   end
 end
+
