@@ -14,3 +14,4 @@ target 'carousel_Example' do
     pod 'Nimble-Snapshots'
   end
 end
+
