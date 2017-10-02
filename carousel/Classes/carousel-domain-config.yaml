@@ -1,3 +1,4 @@
+---
 openapi: 3.0.0
 info:
   description: Carousel
@@ -14,14 +15,13 @@ tags:
   - name: developers
     description: Operations available to regular developers
 servers:  
-- url: carousel.groupon.com
-  description: The main prod server
+  - url: carousel.groupon.com
+    description: The main prod server
 paths:
   /homepage:
     get:
       summary: homepage
-      description: |
-        This is the main page
+      description: This is the main page
       responses:
         '200':
           description: Show the main carousel
