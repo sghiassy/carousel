@@ -1,5 +1,5 @@
 ---
-openapi: 3.0.0
+airgapapi: 0.0.1
 info:
   description: Carousel
   version: "1.0.0"
@@ -9,12 +9,7 @@ info:
   license:
     name: Apache 2.0
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
-tags:
-  - name: admins
-    description: Secured Admin-only calls
-  - name: developers
-    description: Operations available to regular developers
-servers:  
+domain:
   - url: carousel.groupon.com
     description: The main prod server
 paths:
