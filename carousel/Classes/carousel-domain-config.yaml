@@ -10,9 +10,9 @@ info:
     name: Apache 2.0
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
 domain:
-  - url: carousel.groupon.com
+    url: carousel.groupon.com
     description: The main prod server
-main: CarouselMain.swift
+routeHandler: CarouselMain
 paths:
   /:
     get:
