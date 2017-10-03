@@ -17,11 +17,9 @@ aliases:
 routeHandler: CarouselRouteHandler
 paths:
   /:
-    get:
+    show:
       summary: homepage
       description: This is the main page
       responses:
         '200':
           description: Show the main carousel
-          type: UIKit/UIViewController
-          file: CarouselViewController.swift

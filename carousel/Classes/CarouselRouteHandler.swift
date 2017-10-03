@@ -10,6 +10,10 @@ import AirGap
 
 class CarouselRouteHandler: RouteHandlerServer {
     override public func routes(server:Server) {
-        server.VC = CarouselViewController.self
+        
+        server.onSHOW("/") { (req, res) in
+            res.viewC = CarouselViewController()
+        }
+        
     }
 }
