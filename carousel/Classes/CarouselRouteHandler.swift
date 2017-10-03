@@ -8,7 +8,7 @@
 import UIKit
 import AirGap
 
-class CarouselRouteHandler: RouteHandlerServer {
+class CarouselRouteHandler: RouteHandler {
     override public func routes(server:Server) {
         
         server.onSHOW("/") { (req, res) in
