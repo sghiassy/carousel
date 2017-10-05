@@ -20,6 +20,18 @@ paths:
     show:
       summary: homepage
       description: This is the main page
+      parameters:
+        - name: "abTestCarouselSimple"
+          in: "query"
+          description: "Turns the abTestCarouselSimple AB test on or off"
+          required: false
+          type: "string"
+          enum:
+          - "true"
+          - "false"
+          - "t"
+          - "f"
+          default: "false"
       responses:
         '200':
           description: Show the main carousel

@@ -11,7 +11,16 @@ import AirGap
 class CarouselRouteHandler: RouteHandler {
     override public func routes(server:Server) {
         
-        server.onSHOW("/") { (req, res, done) in
+        server.on(.SHOW, "/") { (req, res, done) in
+            let lightCarouselABisOn = req.query("abTestCarouselSimple") == "true"
+            
+            if (lightCarouselABisOn) {
+                // Since the carousel-light experiment is on, redirect the request to the carousel-light domain
+                res.status = .PermanentRedirect // 301
+                res.location = "carousel-light.groupon.com"
+                return done()
+            }
+            
             res.viewC = CarouselViewController()
             done()
         }
