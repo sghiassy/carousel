@@ -1,0 +1,7 @@
+{
+    "domains": [{
+        "config" : "carousel-domain-config",
+        "bundle" : "org.cocoapods.carousel"
+      }
+    ]
+}

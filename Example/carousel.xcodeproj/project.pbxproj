@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		AA3FFB6E1F85ED9000CD42F7 /* Airgap.json in Resources */ = {isa = PBXBuildFile; fileRef = AA3FFB6D1F85ED9000CD42F7 /* Airgap.json */; };
 		BD5B96C4C32331527AF6EBF1 /* Pods_carousel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40C8FF439E2834A4C97F813 /* Pods_carousel_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A8EFE2C3E17144FFAD423A1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AA3FFB6D1F85ED9000CD42F7 /* Airgap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Airgap.json; path = ../../Airgap.json; sourceTree = "<group>"; };
 		EA05F69AA8DCAB183D96C1C5 /* Pods-carousel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carousel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-carousel_Tests/Pods-carousel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F40C8FF439E2834A4C97F813 /* Pods_carousel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carousel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				AA3FFB6D1F85ED9000CD42F7 /* Airgap.json */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				AA3FFB6E1F85ED9000CD42F7 /* Airgap.json in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
