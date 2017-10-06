@@ -38,7 +38,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AirGap: eb0a0f75d8e11905b42955f626929658fef8346a
+  AirGap: 840c90ec4958a3fe734202a3683e50ca3fe8abf7
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   carousel: c8ce35ac0d004539a190fa48eabc7c819353b6ac
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
